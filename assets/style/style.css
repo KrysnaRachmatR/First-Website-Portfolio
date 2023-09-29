@@ -8,7 +8,7 @@
 
 body{
     min-height: 100vh;
-    background: url('background.jpg') no-repeat;
+    background: #67afd6;
     background-size: cover;
     background-position: center;
 }
@@ -19,8 +19,8 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: seagreen;
-     display: flex;
+    background: transparent;
+    display: flex;
     justify-content: space-between;
     align-items: center; 
     z-index: 100;
@@ -28,7 +28,7 @@ body{
 
 .logo{
     font-size: 32px;
-    color: #fff;
+    color: #3d853e;
     text-decoration: none;
     font-weight: 700;
 }
@@ -36,7 +36,7 @@ body{
 .navbar a{
     position: relative;
     font-size: 20px;
-    color: #fff;
+    color: #FFCC70;
     font-weight: 500;
     text-decoration: none;
     margin-left: 20px;
@@ -56,6 +56,63 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
-
-
 /*End Navbar  */
+/* ---------------------- */
+
+/* Start Content */
+    /* Start Content About me */
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: -15px;
+}
+
+.about-text h2{
+    color: wheat;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+}
+.about img{
+    height: auto;
+    width: 320px;
+}
+
+.about-text{
+    width: 550px;
+}
+.about{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+    /* End About me */
+
+
+/* End Content */
