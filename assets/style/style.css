@@ -1,118 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', 'Sans-serif';
+    font-family: Verdana;
 }
 
-body{
-    min-height: 100vh;
-    background: #67afd6;
-    background-size: cover;
-    background-position: center;
-}
-/* Start Navbar */
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
+header{
+    background-color: #186F65;
     width: 100%;
-    padding: 20px 100px;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    z-index: 100;
+    height: 70px;
+    color: wheat;
 }
 
 .logo{
-    font-size: 32px;
-    color: #3d853e;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.navigasi{
+    margin-left: 700px;
+    padding-top: 28px;
+}
+
+.navigasi ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.navigasi ul li a{
     text-decoration: none;
-    font-weight: 700;
-}
-
-.navbar a{
-    position: relative;
-    font-size: 20px;
-    color: #FFCC70;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 20px;
-}
-
-.navbar a::before{
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #fff;
-    transition: .3s;
-}
-
-.navbar a:hover::before{
-    width: 100%;
-}
-/*End Navbar  */
-/* ---------------------- */
-
-/* Start Content */
-    /* Start Content About me */
-.main{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.about-text h1{
-    color: white;
-    font-size: 70px;
-    text-transform: capitalize;
-    margin-bottom: -15px;
-}
-
-.about-text h2{
     color: wheat;
-    font-size: 30px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
 }
 
-.about{
-    width: 100%;
-    padding: 78px 0px;
+.navigasi ul li a:hover{
+    color: lightskyblue;
+    font-style: italic;
+    border-bottom: #186F65;
 }
-.about img{
-    height: auto;
-    width: 320px;
+/* END NAVBAR */
+
+#banner{
+    background-color: #B5CB99;
+    height: 500px;
+    text-align: center;
+    color: azure;
 }
 
-.about-text{
-    width: 550px;
-}
-.about{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+#banner img{
+    border-radius: 200px;
+    height: 300px;
+    border: 10px solid #FCE09B;
+    margin-top: 100px;
 }
 
-.about-text p{
-    color: #fcfc;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
+#banner h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
-    /* End About me */
+/* END BANNER */
 
+#riwayat{
+    text-align: center;
+    color: #FCE09B;
+    margin-top: 30px;
+    align-content: center;  
+}
 
-/* End Content */
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.card-left, .card-center, .card-right{
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 30px 7px;
+    margin: 70px 20px 20px 55px;
+}
