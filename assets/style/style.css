@@ -63,21 +63,29 @@ header{
 
 #riwayat{
     text-align: center;
-    color: #FCE09B;
+    color: #186F65;
     margin-top: 30px;
     align-content: center;  
 }
 
-img{
-    height: 300px;
+.card-left, .card-mid, .card-right{
     width: 300px;
+    height: 320px;
+    background: white;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 70px 20px 20px 55px; 
+    border-radius: 100px;   
+    float: left;
 }
 
-.card-left, .card-center, .card-right{
-    width: 300px;
-    height: 300px;
-    background-color: #f0f0f0;
-    text-align: center;
-    padding-top: 30px 7px;
-    margin: 70px 20px 20px 55px;
+.card-left:hover, .card-mid:hover, .card-right:hover{
+    background-color: #95deff;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+#riwayat img{
+    height: 200px;
+    width: 200px;
 }
